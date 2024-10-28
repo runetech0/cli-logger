@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 
 name = "rt-logger"
-version = "0.1.0"
+version = "0.1.1"
 
 description = "A custom logger for cli based apps with colors"
 
@@ -31,7 +31,7 @@ Homepage = "https://github.com/runetech0/rt-logger"
 github = "https://github.com/runetech0/rt-logger"
 
 [tool.bumpver]
-current_version = "0.1.0"
+current_version = "0.1.1"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
@@ -50,6 +50,6 @@ push = false
 ]
 
 "rt_logger/__init__.py" = [
-    'version = "{version}"'
+    "{version}"
 ]
 
