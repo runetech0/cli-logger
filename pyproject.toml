@@ -47,7 +47,4 @@ push = false
     'current_version = "{version}"',
     'version = "{version}"'
 ]
-"README.md" = [
-    "{version}",
-]
 
