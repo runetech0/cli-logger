@@ -43,8 +43,13 @@ tag = true
 push = false
 
 [tool.bumpver.file_patterns]
-"rt_logger/__init__.py" = [
+
+"pyproject.toml" = [
     'current_version = "{version}"',
+    'version = "{version}"'
+]
+
+"rt_logger/__init__.py" = [
     'version = "{version}"'
 ]
 
