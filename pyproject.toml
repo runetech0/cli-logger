@@ -23,12 +23,12 @@ dependencies = [
 ]
 requires-python = ">=3.11"
 
-keywords = ["python", "logging", "logger"]
+keywords = ["rt-logger", "python", "logging", "logger"]
 
 [project.urls]
 
-Homepage = "https://github.com/runetech0/cli-logger"
-github = "https://github.com/runetech0/cli-logger"
+Homepage = "https://github.com/runetech0/rt-logger"
+github = "https://github.com/runetech0/rt-logger"
 
 [tool.bumpver]
 current_version = "0.1.0"
@@ -40,10 +40,10 @@ pre_commit_hook = ""
 post_commit_hook = ""
 commit = true
 tag = true
-push = true
+push = false
 
 [tool.bumpver.file_patterns]
-"cli_logger/__init__.py" = [
+"rt_logger/__init__.py" = [
     'current_version = "{version}"',
     'version = "{version}"'
 ]
